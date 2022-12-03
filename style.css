@@ -1,0 +1,380 @@
+.navbar {
+    height: 80px;
+    background-color: black;
+}
+
+.nav-link {
+    color: #fff;
+}
+
+.navbar-brand img {
+    height: 40px;
+    margin-left: 5rem;
+}
+
+.nav-item {
+    font-weight: 700;
+    margin: 0 7px 0 7px;
+}
+
+.nav-link:hover {
+    color: rgb(78, 216, 78);
+}
+
+.homepage {}
+
+.homepage1 {
+    background: url('./background2.svg') center center / 100% 950px no-repeat, linear-gradient(-155deg, rgb(24, 51, 38) 55%, rgb(11, 250, 50) 115%);
+    background-position: center center;
+    background-repeat: no-repeat;
+    width: 100%;
+    height: 570px;
+    overflow: hidden;
+}
+
+@media screen and (max-width:768px) {
+
+    .homepage1 {
+        width: 100%;
+        background: url("./background1st.svg") center -138px / 100% 590px no-repeat, linear-gradient(-155deg, rgb(24, 51, 38) 55%, rgb(11, 250, 50) 115%);
+        background-position: center -138px;
+        background-repeat: no-repeat;
+        overflow: hidden;
+    }
+
+    .navbar-brand img {
+        height: 30px;
+        margin-left: 1rem;
+    }
+}
+
+.phone {
+    width: 286px;
+    height: 573px;
+}
+
+.phone-section {
+    display: flex;
+    justify-content: center;
+    padding-top: 90px;
+}
+
+.phone-section svg {
+    position: relative;
+}
+
+.phone-content {
+    width: 267px;
+    height: 445px;
+    position: absolute;
+    top: 205px;
+}
+
+.head-content2 {
+    display: flex;
+    justify-content: start;
+    align-items: center;
+
+}
+
+.head-content2 h2 {
+    font-family: Helvetica, Arial, sans-serif;
+    color: white;
+    font-size: 48px;
+    font-weight: 900;
+    line-height: 1.15;
+    letter-spacing: -1.92px;
+    padding-bottom: 32px;
+}
+
+
+.body-button {
+    border: 0;
+    border-radius: 28px;
+    width: 185px;
+    height: 50px;
+
+    font-weight: 700;
+}
+
+.body-button:hover{
+    background-color: rgb(24, 154, 12);
+}
+
+.why {
+    margin: 60px 100px 10px 100px;
+}
+
+.body-elements img {
+    width: 142px;
+    height: 142px;
+
+}
+
+.why-content {
+    text-align: center;
+    margin-bottom: 60px;
+
+}
+
+.body-elements .col-lg-3 {
+    text-align: center;
+    margin-bottom: 5rem;
+
+}
+
+.body-elements .col-lg-3 h4 {
+    font-size: 18px;
+    font-weight: 700;
+
+}
+
+.OK {
+    margin-top: 20px;
+}
+
+.body3 {
+    width: 100%;
+
+    background: linear-gradient(-155deg, rgb(24, 51, 38) 55%, rgb(11, 250, 50) 115%);
+    height: 496px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-direction: column;
+}
+
+.body3-element {
+
+    font-size: 40px;
+    font-weight: 750;
+    color: white;
+}
+
+
+
+@media screen and (max-width:991px) {
+
+    .phone-section {
+        display: none;
+    }
+
+    .head-content2 {
+
+        padding: 100px 0 0 50px;
+
+    }
+
+    .head-content2 {
+        width: 89%;
+    }
+
+    .why .row .col-md-6 {
+        display: flex;
+        justify-content: center;
+        align-items: center;
+    }
+
+    .OK {
+        display: flex;
+        text-align: initial;
+        flex-direction: column;
+
+    }
+
+    .body-elements img {
+        width: 122px;
+        height: 122px;
+    }
+}
+
+
+@media screen and (max-width:768px) {
+
+    .head-content2 h2 {
+
+        font-size: 38px;
+        font-weight: 800;
+
+    }
+
+    .why {
+        margin: 60px 10px 10px 10px;
+    }
+
+    .body3-element {
+
+        font-size: 32px;
+
+    }
+}
+
+.btn-group {
+    width: 100%;
+    border: 0;
+    box-shadow: 0px 4px 16px rgba(0, 0, 0, 0.09);
+}
+
+.btn {
+    cursor: pointer;
+    font-size: 18px;
+    font-weight: 900;
+    padding: 26px 28px;
+    margin-top: 2px;
+
+}
+
+.accordion-content {
+    max-width: 100%px;
+    margin: 0 auto;
+    padding: 2rem;
+}
+
+.accordion-item {
+    display: flex;
+    flex-direction: column;
+    padding: 20px 1rem;
+    border-radius: 5px;
+    border: 1px solid #ddd;
+    box-shadow: 0px 4px 16px rgba(0, 0, 0, 0.09);
+    cursor: pointer;
+    background: #fff;
+    margin-bottom: 0.5em;
+}
+
+.item-header {
+    display: flex;
+    justify-content: space-between;
+    column-gap: 0.2em;
+}
+
+.item-icon {
+    margin-top: 1rem;
+    flex: 0 0 25px;
+    display: grid;
+    place-items: center;
+    font-size: 1.25rem;
+    height: 25px;
+    width: 25px;
+    border-radius: 4px;
+    background: #dedede;
+    cursor: pointer;
+    box-shadow: 0px 4px 16px rgba(0, 0, 0, 0.09);
+}
+
+.item-icon i {
+    transition: all 0.25s cubic-bezier(0.5, 0, 0.1, 1);
+}
+
+.item-question {
+    font-size: 1em;
+    line-height: 1;
+    font-weight: 500;
+}
+
+.active .item-icon i {
+    transform: rotate(180deg);
+}
+
+.active .item-question {
+    font-weight: 500;
+}
+
+.item-content {
+    max-height: 0;
+    overflow: hidden;
+    transition: all 300ms ease;
+}
+
+.item-answer {
+    line-height: 150%;
+    opacity: 0.8;
+}
+
+.gotq {
+    text-align: center;
+
+}
+
+.final-body {
+    width: 100%;
+    height: 400px;
+    overflow: hidden;
+    padding: 0px;
+    background: url('./lets-play.svg') center center / 100% no-repeat, linear-gradient(-155deg, rgb(24, 51, 38) 55%, rgb(11, 250, 50) 115%);
+    background-position: center center;
+    background-repeat: no-repeat;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.letsplay h1 {
+    color: white;
+    font-size: 48px;
+    font-weight: 900;
+    letter-spacing: -0.02em;
+    line-height: 1.2;
+    padding: 30px 15px 32px;
+}
+.container
+{
+    background-color: black;
+    
+    
+}
+.footer-pic
+{
+    width: 140px;
+}
+.footer
+{
+    background-color: rgb(170, 42, 42);
+    width: 100%;
+    height: 500px;
+}
+.footer-body
+{
+     
+}
+.footerm{
+    background-color: black;
+}
+.bi-instagram
+{
+    color: #fff;
+}
+.bi-twitter
+{
+    color: #fff;
+}
+.bi-facebook
+{
+    color: #fff;
+}
+.bi-instagram:hover
+{
+    cursor: pointer;
+    color:rgb(70, 212, 70);
+}
+.bi-facebook:hover
+{
+    cursor: pointer;
+    color: rgb(70, 212, 70);
+}
+.bi-twitter:hover
+{
+    cursor: pointer;
+    color: rgb(70, 212, 70);
+}
+
+
+.nav-item
+{
+    font-weight: 400;
+    line-height: 1.7;
+}
+
+.ic{
+    margin-top: 100px;
+}
